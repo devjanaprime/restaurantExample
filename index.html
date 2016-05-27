@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Test</title>
+    <script src="scripts/restaurant.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Restaurant Table Handler</h1>
+    <h2>Create Table</h2>
+    Name:<input type="text" id="nameIn" value="">
+    Capacity:<select id="capacityIn">
+      <option value=2>2</option>
+      <option value=4>4</option>
+      <option value=6>6</option>
+      <option value=8>8</option>
+      <option value=10>10</option>
+    </select>
+    <button type="button" name="button" onclick="createTable();">Add Table</button>
+    <!-- <h2>Set Table Status</h2>
+    Name:<input type="text" id="statusNameIn" value="">
+    Status:<select id="statusIn">
+      <option value='empty'>empty</option>
+      <option value='seated'>seated</option>
+      <option value='served'>served</option>
+      <option value='dirty'>dirty</option>
+    </select>
+    <button type="button" name="button" onclick="updateStatus();">Update Table</button> -->
+    <h2>Current Tables</h2>
+    <div id="output"></div>
+  </body>
+</html>
